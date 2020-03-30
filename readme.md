@@ -2,12 +2,9 @@
 
 1. Export SVGs from Figma using SVG Export plugin to the svg-icons directory
 2. Remove spaces from file names
-3. Open svg-icons dir in terminal
-4. Run svgtoreact dir -o ../js-icons
-5. Run cd ../
 
 ## Format JS Icons
 
 1. Open project dir in terminal
-2. Run node app.js
+2. Run node app
 3. Your formated icons will appear in the output dir
