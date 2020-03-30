@@ -1,5 +1,17 @@
 
 const fs = require('fs');
+const { execSync } = require("child_process");
+
+//Covert SVGs to React icons
+
+execSync("cd svg-icons && svgtoreact dir -o ../js-icons && cd ../", (err, stdout, stderr) => {
+  if (err) {
+    // node couldn't execute the command
+    return;
+  }
+});
+
+// Format React icons
 
 let header1 = fs.readFileSync('./header1.js', { encoding: 'utf8' });
 let header2 = fs.readFileSync('./header2.js', { encoding: 'utf8' });
