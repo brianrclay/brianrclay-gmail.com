@@ -1,2 +1,0 @@
-= createSvgIcon(({ color }) => (
-  <React.Fragment>

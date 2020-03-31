@@ -1,21 +1,9 @@
-
 const fs = require('fs');
 const { execSync } = require("child_process");
+const template = require('lodash.template')
 
-//Covert SVGs to React icons
-
-execSync("cd svg-icons && svgtoreact dir -o ../js-icons && cd ../", (err, stdout, stderr) => {
-  if (err) {
-    // node couldn't execute the command
-    return;
-  }
-});
-
-// Format React icons
-
-let header1 = fs.readFileSync('./header1.js', { encoding: 'utf8' });
-let header2 = fs.readFileSync('./header2.js', { encoding: 'utf8' });
-let footer = fs.readFileSync('./footer.js', { encoding: 'utf8' });
+const iconTemplate = fs.readFileSync('./templates/icon.js', { encoding: 'utf8' })
+const compiled = template(iconTemplate)
 
 var dir = fs.readdir('./js-icons', (err, files) => {
   if (err) {
@@ -29,12 +17,21 @@ var dir = fs.readdir('./js-icons', (err, files) => {
       var svgContents = targetSVG.substring(svgStart, svgEnd);
       var svgName = files[index].slice(0, files[index].toString().indexOf('.js'));
 
-      var svgWithColorProp = svgContents.replace(/fill="#19212C"|fill="#121417"/g, 'fill={color}')
-      
+      var svgWithColorProp = svgContents.replace(/fill="#19212C"|fill="#121417"|fill="#2F73DA"/g, 'fill={color}')
+
+      // Check for fragment
+      const regexp = /path/g;
+      const pathCount = [...svgWithColorProp.matchAll(regexp)].length;
+      const hasClipPath = svgWithColorProp.indexOf('clipPath') !== -1
+
       // Create JS file using svgName and append contents of svgContents
       fs.writeFile(
         './output/' + svgName + '.js',
-        header1 + " " + svgName + " " + header2 + '\n' + svgWithColorProp + footer,
+        compiled({
+          iconName: svgName,
+          icon: svgWithColorProp,
+          fragment: pathCount > 1 || hasClipPath,
+        }),
         function (err) {
           if (err) throw err;
         });
