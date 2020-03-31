@@ -8,3 +8,5 @@ export const Key = createSvgIcon(({ color }) => (
     
   
 ))
+
+Key.displayName = "Key"

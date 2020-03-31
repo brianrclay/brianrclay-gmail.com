@@ -15,3 +15,5 @@ export const Pets = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Pets.displayName = "Pets"

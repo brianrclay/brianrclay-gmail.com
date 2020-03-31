@@ -8,3 +8,5 @@ export const BarChart = createSvgIcon(({ color }) => (
     
   
 ))
+
+BarChart.displayName = "BarChart"

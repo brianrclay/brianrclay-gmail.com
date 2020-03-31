@@ -8,3 +8,5 @@ export const Search = createSvgIcon(({ color }) => (
     
   
 ))
+
+Search.displayName = "Search"

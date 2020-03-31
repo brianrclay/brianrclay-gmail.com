@@ -8,3 +8,5 @@ export const Health = createSvgIcon(({ color }) => (
     
   
 ))
+
+Health.displayName = "Health"

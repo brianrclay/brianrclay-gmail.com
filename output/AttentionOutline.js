@@ -8,3 +8,5 @@ export const AttentionOutline = createSvgIcon(({ color }) => (
     
   
 ))
+
+AttentionOutline.displayName = "AttentionOutline"

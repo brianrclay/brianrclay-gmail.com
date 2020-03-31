@@ -9,3 +9,5 @@ export const Survey = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Survey.displayName = "Survey"

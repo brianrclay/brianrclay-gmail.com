@@ -8,3 +8,5 @@ export const Copy = createSvgIcon(({ color }) => (
     
   
 ))
+
+Copy.displayName = "Copy"

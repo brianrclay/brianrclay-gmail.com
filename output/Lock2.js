@@ -8,3 +8,5 @@ export const Lock2 = createSvgIcon(({ color }) => (
     
   
 ))
+
+Lock2.displayName = "Lock2"

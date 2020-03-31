@@ -8,3 +8,5 @@ export const CheckCircleFilled = createSvgIcon(({ color }) => (
     
   
 ))
+
+CheckCircleFilled.displayName = "CheckCircleFilled"

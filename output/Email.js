@@ -8,3 +8,5 @@ export const Email = createSvgIcon(({ color }) => (
     
   
 ))
+
+Email.displayName = "Email"

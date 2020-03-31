@@ -9,3 +9,5 @@ export const Calculator = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Calculator.displayName = "Calculator"

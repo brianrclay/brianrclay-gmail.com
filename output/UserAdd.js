@@ -8,3 +8,5 @@ export const UserAdd = createSvgIcon(({ color }) => (
     
   
 ))
+
+UserAdd.displayName = "UserAdd"

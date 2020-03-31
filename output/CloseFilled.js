@@ -8,3 +8,5 @@ export const CloseFilled = createSvgIcon(({ color }) => (
     
   
 ))
+
+CloseFilled.displayName = "CloseFilled"

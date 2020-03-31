@@ -15,3 +15,5 @@ export const Redo = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Redo.displayName = "Redo"

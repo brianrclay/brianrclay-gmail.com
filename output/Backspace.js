@@ -8,3 +8,5 @@ export const Backspace = createSvgIcon(({ color }) => (
     
   
 ))
+
+Backspace.displayName = "Backspace"

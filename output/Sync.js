@@ -10,3 +10,5 @@ export const Sync = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Sync.displayName = "Sync"

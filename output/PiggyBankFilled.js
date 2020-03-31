@@ -8,3 +8,5 @@ export const PiggyBankFilled = createSvgIcon(({ color }) => (
     
   
 ))
+
+PiggyBankFilled.displayName = "PiggyBankFilled"

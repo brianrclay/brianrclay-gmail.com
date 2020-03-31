@@ -15,3 +15,5 @@ export const HelpOutline = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+HelpOutline.displayName = "HelpOutline"

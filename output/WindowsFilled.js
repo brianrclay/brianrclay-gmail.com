@@ -15,3 +15,5 @@ export const WindowsFilled = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+WindowsFilled.displayName = "WindowsFilled"

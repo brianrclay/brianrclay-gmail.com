@@ -15,3 +15,5 @@ export const Video = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Video.displayName = "Video"

@@ -15,3 +15,5 @@ export const Github = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Github.displayName = "Github"

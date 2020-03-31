@@ -8,3 +8,5 @@ export const Sort = createSvgIcon(({ color }) => (
     
   
 ))
+
+Sort.displayName = "Sort"

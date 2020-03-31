@@ -15,3 +15,5 @@ export const Receipt = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Receipt.displayName = "Receipt"

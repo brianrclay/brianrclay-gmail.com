@@ -8,3 +8,5 @@ export const Growth = createSvgIcon(({ color }) => (
     
   
 ))
+
+Growth.displayName = "Growth"

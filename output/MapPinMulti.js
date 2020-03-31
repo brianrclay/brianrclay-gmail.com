@@ -8,3 +8,5 @@ export const MapPinMulti = createSvgIcon(({ color }) => (
     
   
 ))
+
+MapPinMulti.displayName = "MapPinMulti"

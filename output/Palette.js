@@ -17,3 +17,5 @@ export const Palette = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Palette.displayName = "Palette"

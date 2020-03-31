@@ -15,3 +15,5 @@ export const Plane = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Plane.displayName = "Plane"

@@ -8,3 +8,5 @@ export const CheckmarkCircleOutline = createSvgIcon(({ color }) => (
     
   
 ))
+
+CheckmarkCircleOutline.displayName = "CheckmarkCircleOutline"

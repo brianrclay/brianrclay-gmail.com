@@ -8,3 +8,5 @@ export const Logout = createSvgIcon(({ color }) => (
     
   
 ))
+
+Logout.displayName = "Logout"

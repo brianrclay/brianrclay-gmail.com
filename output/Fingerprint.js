@@ -8,3 +8,5 @@ export const Fingerprint = createSvgIcon(({ color }) => (
     
   
 ))
+
+Fingerprint.displayName = "Fingerprint"

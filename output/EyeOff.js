@@ -16,3 +16,5 @@ export const EyeOff = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+EyeOff.displayName = "EyeOff"

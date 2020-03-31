@@ -15,3 +15,5 @@ export const Tag = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Tag.displayName = "Tag"

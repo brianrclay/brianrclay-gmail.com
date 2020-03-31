@@ -15,3 +15,5 @@ export const ArrowUpFilled = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+ArrowUpFilled.displayName = "ArrowUpFilled"

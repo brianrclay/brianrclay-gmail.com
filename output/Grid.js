@@ -8,3 +8,5 @@ export const Grid = createSvgIcon(({ color }) => (
     
   
 ))
+
+Grid.displayName = "Grid"

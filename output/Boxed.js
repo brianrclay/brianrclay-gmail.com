@@ -8,3 +8,5 @@ export const Boxed = createSvgIcon(({ color }) => (
     
   
 ))
+
+Boxed.displayName = "Boxed"

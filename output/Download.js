@@ -15,3 +15,5 @@ export const Download = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Download.displayName = "Download"

@@ -9,3 +9,5 @@ export const PointerOutline = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+PointerOutline.displayName = "PointerOutline"

@@ -9,3 +9,5 @@ export const PiggyBankOutline = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+PiggyBankOutline.displayName = "PiggyBankOutline"

@@ -15,3 +15,5 @@ export const Heart = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Heart.displayName = "Heart"

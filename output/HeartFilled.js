@@ -8,3 +8,5 @@ export const HeartFilled = createSvgIcon(({ color }) => (
     
   
 ))
+
+HeartFilled.displayName = "HeartFilled"

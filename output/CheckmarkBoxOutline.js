@@ -9,3 +9,5 @@ export const CheckmarkBoxOutline = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+CheckmarkBoxOutline.displayName = "CheckmarkBoxOutline"

@@ -8,3 +8,5 @@ export const Folder = createSvgIcon(({ color }) => (
     
   
 ))
+
+Folder.displayName = "Folder"

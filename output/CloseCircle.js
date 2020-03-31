@@ -8,3 +8,5 @@ export const CloseCircle = createSvgIcon(({ color }) => (
     
   
 ))
+
+CloseCircle.displayName = "CloseCircle"

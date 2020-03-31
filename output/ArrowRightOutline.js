@@ -9,3 +9,5 @@ export const ArrowRightOutline = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+ArrowRightOutline.displayName = "ArrowRightOutline"

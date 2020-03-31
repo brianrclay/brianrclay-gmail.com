@@ -8,3 +8,5 @@ export const Clipboard2 = createSvgIcon(({ color }) => (
     
   
 ))
+
+Clipboard2.displayName = "Clipboard2"

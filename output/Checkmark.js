@@ -8,3 +8,5 @@ export const Checkmark = createSvgIcon(({ color }) => (
     
   
 ))
+
+Checkmark.displayName = "Checkmark"

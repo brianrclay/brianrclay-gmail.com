@@ -8,3 +8,5 @@ export const Android = createSvgIcon(({ color }) => (
     
   
 ))
+
+Android.displayName = "Android"

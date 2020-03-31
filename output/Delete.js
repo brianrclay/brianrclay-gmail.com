@@ -8,3 +8,5 @@ export const Delete = createSvgIcon(({ color }) => (
     
   
 ))
+
+Delete.displayName = "Delete"

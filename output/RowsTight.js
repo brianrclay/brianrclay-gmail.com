@@ -8,3 +8,5 @@ export const RowsTight = createSvgIcon(({ color }) => (
     
   
 ))
+
+RowsTight.displayName = "RowsTight"

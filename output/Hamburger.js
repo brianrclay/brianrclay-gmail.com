@@ -8,3 +8,5 @@ export const Hamburger = createSvgIcon(({ color }) => (
     
   
 ))
+
+Hamburger.displayName = "Hamburger"

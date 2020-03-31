@@ -15,3 +15,5 @@ export const ThumbsDown = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+ThumbsDown.displayName = "ThumbsDown"

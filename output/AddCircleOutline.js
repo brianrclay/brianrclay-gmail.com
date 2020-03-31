@@ -8,3 +8,5 @@ export const AddCircleOutline = createSvgIcon(({ color }) => (
     
   
 ))
+
+AddCircleOutline.displayName = "AddCircleOutline"

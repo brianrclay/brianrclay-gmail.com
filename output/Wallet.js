@@ -8,3 +8,5 @@ export const Wallet = createSvgIcon(({ color }) => (
     
   
 ))
+
+Wallet.displayName = "Wallet"

@@ -8,3 +8,5 @@ export const Flagfilled = createSvgIcon(({ color }) => (
     
   
 ))
+
+Flagfilled.displayName = "Flagfilled"

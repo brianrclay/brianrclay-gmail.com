@@ -8,3 +8,5 @@ export const Calendar = createSvgIcon(({ color }) => (
     
   
 ))
+
+Calendar.displayName = "Calendar"

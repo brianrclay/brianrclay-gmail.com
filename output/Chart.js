@@ -8,3 +8,5 @@ export const Chart = createSvgIcon(({ color }) => (
     
   
 ))
+
+Chart.displayName = "Chart"

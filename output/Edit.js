@@ -8,3 +8,5 @@ export const Edit = createSvgIcon(({ color }) => (
     
   
 ))
+
+Edit.displayName = "Edit"

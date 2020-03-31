@@ -15,3 +15,5 @@ export const Link = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Link.displayName = "Link"

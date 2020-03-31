@@ -8,3 +8,5 @@ export const Split = createSvgIcon(({ color }) => (
     
   
 ))
+
+Split.displayName = "Split"

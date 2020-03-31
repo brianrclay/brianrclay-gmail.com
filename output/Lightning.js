@@ -15,3 +15,5 @@ export const Lightning = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Lightning.displayName = "Lightning"

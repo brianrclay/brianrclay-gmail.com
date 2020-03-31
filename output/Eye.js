@@ -15,3 +15,5 @@ export const Eye = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Eye.displayName = "Eye"

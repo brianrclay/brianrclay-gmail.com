@@ -6,3 +6,5 @@ export const <%= iconName%> = createSvgIcon(({ color }) => (
   <%= icon %>
   <% if (fragment) { %> </React.Fragment> <% } %>
 ))
+
+<%= iconName %>.displayName = "<%= iconName %>"

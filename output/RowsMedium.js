@@ -8,3 +8,5 @@ export const RowsMedium = createSvgIcon(({ color }) => (
     
   
 ))
+
+RowsMedium.displayName = "RowsMedium"

@@ -8,3 +8,5 @@ export const UserMulti = createSvgIcon(({ color }) => (
     
   
 ))
+
+UserMulti.displayName = "UserMulti"

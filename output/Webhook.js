@@ -10,3 +10,5 @@ export const Webhook = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Webhook.displayName = "Webhook"

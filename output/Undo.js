@@ -8,3 +8,5 @@ export const Undo = createSvgIcon(({ color }) => (
     
   
 ))
+
+Undo.displayName = "Undo"

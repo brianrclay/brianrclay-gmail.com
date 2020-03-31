@@ -8,3 +8,5 @@ export const Widget = createSvgIcon(({ color }) => (
     
   
 ))
+
+Widget.displayName = "Widget"

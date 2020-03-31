@@ -18,3 +18,5 @@ export const AndroidFilled = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+AndroidFilled.displayName = "AndroidFilled"

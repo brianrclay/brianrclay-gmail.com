@@ -15,3 +15,5 @@ export const AppleFilled = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+AppleFilled.displayName = "AppleFilled"

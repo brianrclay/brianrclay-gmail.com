@@ -15,3 +15,5 @@ export const Windows = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Windows.displayName = "Windows"

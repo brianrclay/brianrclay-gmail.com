@@ -8,3 +8,5 @@ export const CreditCard = createSvgIcon(({ color }) => (
     
   
 ))
+
+CreditCard.displayName = "CreditCard"

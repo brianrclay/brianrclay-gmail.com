@@ -8,3 +8,5 @@ export const Files = createSvgIcon(({ color }) => (
     
   
 ))
+
+Files.displayName = "Files"

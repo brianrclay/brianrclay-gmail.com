@@ -8,3 +8,5 @@ export const Mobile = createSvgIcon(({ color }) => (
     
   
 ))
+
+Mobile.displayName = "Mobile"

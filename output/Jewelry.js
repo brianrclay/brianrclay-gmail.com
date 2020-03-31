@@ -15,3 +15,5 @@ export const Jewelry = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Jewelry.displayName = "Jewelry"

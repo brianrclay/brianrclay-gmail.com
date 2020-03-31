@@ -15,3 +15,5 @@ export const Star = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Star.displayName = "Star"

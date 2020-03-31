@@ -8,3 +8,5 @@ export const Internet = createSvgIcon(({ color }) => (
     
   
 ))
+
+Internet.displayName = "Internet"

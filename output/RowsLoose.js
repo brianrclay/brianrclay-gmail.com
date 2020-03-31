@@ -8,3 +8,5 @@ export const RowsLoose = createSvgIcon(({ color }) => (
     
   
 ))
+
+RowsLoose.displayName = "RowsLoose"

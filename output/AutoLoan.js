@@ -8,3 +8,5 @@ export const AutoLoan = createSvgIcon(({ color }) => (
     
   
 ))
+
+AutoLoan.displayName = "AutoLoan"

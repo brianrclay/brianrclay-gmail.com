@@ -8,3 +8,5 @@ export const ChevronRight = createSvgIcon(({ color }) => (
     
   
 ))
+
+ChevronRight.displayName = "ChevronRight"

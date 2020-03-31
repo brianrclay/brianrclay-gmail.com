@@ -8,3 +8,5 @@ export const Desktop = createSvgIcon(({ color }) => (
     
   
 ))
+
+Desktop.displayName = "Desktop"

@@ -8,3 +8,5 @@ export const Bell = createSvgIcon(({ color }) => (
     
   
 ))
+
+Bell.displayName = "Bell"

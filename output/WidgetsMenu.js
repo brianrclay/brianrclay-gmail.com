@@ -8,3 +8,5 @@ export const WidgetsMenu = createSvgIcon(({ color }) => (
     
   
 ))
+
+WidgetsMenu.displayName = "WidgetsMenu"

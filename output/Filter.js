@@ -15,3 +15,5 @@ export const Filter = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Filter.displayName = "Filter"

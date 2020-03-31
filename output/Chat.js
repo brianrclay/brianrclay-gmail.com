@@ -15,3 +15,5 @@ export const Chat = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Chat.displayName = "Chat"

@@ -8,3 +8,5 @@ export const PauseOutline = createSvgIcon(({ color }) => (
     
   
 ))
+
+PauseOutline.displayName = "PauseOutline"

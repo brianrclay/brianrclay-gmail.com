@@ -9,3 +9,5 @@ export const Export = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Export.displayName = "Export"

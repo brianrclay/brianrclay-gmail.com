@@ -9,3 +9,5 @@ export const AddSquare = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+AddSquare.displayName = "AddSquare"

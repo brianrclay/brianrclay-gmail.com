@@ -8,3 +8,5 @@ export const PointerFilled = createSvgIcon(({ color }) => (
     
   
 ))
+
+PointerFilled.displayName = "PointerFilled"

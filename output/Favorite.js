@@ -15,3 +15,5 @@ export const Favorite = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Favorite.displayName = "Favorite"

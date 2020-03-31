@@ -15,3 +15,5 @@ export const Hide = createSvgIcon(({ color }) => (
     
    </React.Fragment> 
 ))
+
+Hide.displayName = "Hide"

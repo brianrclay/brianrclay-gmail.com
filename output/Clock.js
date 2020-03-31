@@ -8,3 +8,5 @@ export const Clock = createSvgIcon(({ color }) => (
     
   
 ))
+
+Clock.displayName = "Clock"

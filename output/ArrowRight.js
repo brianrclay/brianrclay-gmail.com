@@ -8,3 +8,5 @@ export const ArrowRight = createSvgIcon(({ color }) => (
     
   
 ))
+
+ArrowRight.displayName = "ArrowRight"
