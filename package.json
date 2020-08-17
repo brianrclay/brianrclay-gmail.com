@@ -1,0 +1,27 @@
+{
+  "name": "svgconvert",
+  "version": "1.0.0",
+  "description": "1. Export SVGs from Figma using SVG Export plugin to the svg-icons directory 2. Remove spaces from file names",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "svgtoreact": "cd svg-icons && svgtoreact dir -o ../js-icons",
+    "compile": "npm run svgtoreact && node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brianrclay/brianrclay-gmail.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/brianrclay/brianrclay-gmail.com/issues"
+  },
+  "homepage": "https://github.com/brianrclay/brianrclay-gmail.com#readme",
+  "dependencies": {
+    "lodash.template": "^4.5.0"
+  },
+  "devDependencies": {
+    "svg-to-react-cli": "^1.5.0"
+  }
+}

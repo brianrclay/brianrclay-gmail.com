@@ -1,8 +1,9 @@
 import React from 'react'
 import { createSvgIcon } from './base'
-export const  HelpFilled = createSvgIcon(({ color }) => (
-  <React.Fragment>
 
+export const HelpFilled = createSvgIcon(({ color }) => (
+   <React.Fragment> 
+  
       <g clipPath="url(#clip0)">
         <path fill={color} fillRule="evenodd" d="M8 16c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zM8 5a1 1 0 100-2 1 1 0 000 2zm-.02 8c.398 0 .72-.364.72-.813V7.314c0-.45-.322-.813-.72-.813-.398 0-.72.364-.72.813v4.875c0 .448.322.812.72.812z" clipRule="evenodd" />
       </g>
@@ -11,5 +12,8 @@ export const  HelpFilled = createSvgIcon(({ color }) => (
           <path fill="#fff" d="M0 0h16v16H0V0z" />
         </clipPath>
       </defs>
-      </React.Fragment>
+    
+   </React.Fragment> 
 ))
+
+HelpFilled.displayName = "HelpFilled"
