@@ -6,5 +6,5 @@
 ## Format JS Icons
 
 1. Open project dir in terminal
-2. Run node app
+2. Run: `node app`
 3. Your formated icons will appear in the output dir
